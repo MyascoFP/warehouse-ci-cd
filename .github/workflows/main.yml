@@ -1,1 +1,14 @@
+name: Warehouse CI/CD
 
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: First CI
+        run: echo "Hello, CI/CD!"
