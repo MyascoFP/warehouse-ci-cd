@@ -1,0 +1,10 @@
+site_name: Warehouse Documentation
+site_description: Documentation for the Warehouse CI/CD project
+
+theme:
+  name: mkdocs
+
+nav:
+  - Home: docs/index.md
+  - Features: docs/features.md
+  - Testing and CI/CD: docs/testing.md
