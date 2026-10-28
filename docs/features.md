@@ -24,3 +24,8 @@ stock is available.
 
 The `get_total_quantity()` method calculates
 the total quantity of all warehouse materials.
+
+## Continuous Integration
+
+All application changes are automatically
+tested with GitHub Actions.
