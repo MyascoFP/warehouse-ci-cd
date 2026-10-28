@@ -20,3 +20,7 @@ class Warehouse:
             raise ValueError("Недостаточно материала на складе")
 
         self.materials[name] -= quantity
+
+    def get_total_quantity(self):
+        return sum(self.materials.values())
+
