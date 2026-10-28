@@ -5,6 +5,7 @@ theme:
   name: mkdocs
 
 nav:
-  - Home: docs/index.md
-  - Features: docs/features.md
-  - Testing and CI/CD: docs/testing.md
+  - Home: index.md
+  - Features: features.md
+  - Testing and CI/CD: testing.md
+  - CHangelog: CHANGELOG.md
