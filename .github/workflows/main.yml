@@ -5,6 +5,9 @@ on:
     branches:
       - main
       - development
+      - release
+    tags:
+      - 'v*'
   pull_request:
     branches:
       - main
